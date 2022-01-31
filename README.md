@@ -21,7 +21,8 @@ $ dotnet new webapi -o App.Services.ProductAPI
 $ cd App.Services.ProductAPI
 $ dotnet watch run
 
-# add proj to solution.
+# add proj to solution via below
+$ dotnet sln add Services/App.Services.ProductAPI
 # set App.Services.ProductAPI as startup proj [optional]
 
 # PAckages
