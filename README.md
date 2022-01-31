@@ -14,7 +14,26 @@
   $  git remote add origin https://github.com/xxx/yyy.git
   $  git push -u origin main
 
+$ mkdir Services
+$ cd Services/
+$ dotnet new webapi -o App.Services.ProductAPI
 
+$ cd App.Services.ProductAPI
+$ dotnet watch run
+
+# add proj to solution.
+# set App.Services.ProductAPI as startup proj [optional]
+
+# PAckages
+AutoMapper
+AutoMapper.Extensions.Microsoft.DependencyInjection
+
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+Swashbuckle.AspNetCore
+Swashbuckle.AspNetCore.SwaggerUI
+Swashbuckle.AspNetCore.Annotations
 
 
 
